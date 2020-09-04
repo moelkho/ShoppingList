@@ -1,0 +1,13 @@
+    <resources>
+    <string name="app_name">GroceryListApp</string>
+    <string name="don_t_have_an_account_sign_up_here">Don\'t have an account ? Sign-up here</string>
+    <string name="send_recovery">Send recovery</string>
+    <string name="log_in">Log in</string>
+    <string name="log_in1">Log In</string>
+    <string name="forgot_password1">Forgot Password ?</string>
+    <string name="don_t_have_an_account_sign_up_here1">Don\'t have an account ? Sign-up here</string>
+    <string name="registration">Registration</string>
+    <string name="registration_in">Registration In</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="already_have_an_account_sign_in_here">Already have an account ? Sign in here</string>
+</resources>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_design">
+
+
+    
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Add new item"
+               android:layout_gravity="center"
+               android:textColor="@android:color/white"
+               android:padding="10dp"
+               android:textAppearance="?android:textAppearanceMedium"
+               android:background="@drawable/new_item_bar_design"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <RelativeLayout
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="2">
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Product :"
+                       android:textColor="@android:color/white"
+                       android:textAppearance="?android:textAppearanceMedium"
+                       android:layout_margin="10dp"
+                       android:padding="5dp"/>
+
+               </RelativeLayout>
+               <RelativeLayout
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="2">
+                   <EditText
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_margin="10dp"
+                       android:textAppearance="?android:textAppearanceMedium"
+                       android:id="@+id/productEdit"
+
+                       android:textColorHint="@android:color/white"
+                       android:hint="Type a product"
+                       />
+
+               </RelativeLayout>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <RelativeLayout
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="2">
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Amount :"
+                       android:textColor="@android:color/white"
+                       android:textAppearance="?android:textAppearanceMedium"
+                       android:layout_margin="10dp"
+                       android:padding="5dp"/>
+
+               </RelativeLayout>
+               <RelativeLayout
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="2">
+                   <EditText
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_margin="10dp"
+                       android:textAppearance="?android:textAppearanceMedium"
+                       android:id="@+id/amountEdit"
+
+                       android:textColorHint="@android:color/white"
+                       android:hint="Type an amout"
+                       />
+
+               </RelativeLayout>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <RelativeLayout
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="2">
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Category :"
+                       android:textColor="@android:color/white"
+                       android:textAppearance="?android:textAppearanceMedium"
+                       android:layout_margin="10dp"
+                       android:padding="5dp"/>
+
+               </RelativeLayout>
+               <RelativeLayout
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="2">
+                   <EditText
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_margin="10dp"
+                       android:textAppearance="?android:textAppearanceMedium"
+                       android:id="@+id/categoryEdit"
+
+                       android:textColorHint="@android:color/white"
+                       android:hint="Type a category"
+                       />
+
+               </RelativeLayout>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <RelativeLayout
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="2">
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Note :"
+                       android:textColor="@android:color/white"
+                       android:textAppearance="?android:textAppearanceMedium"
+                       android:layout_margin="10dp"
+                       android:padding="5dp"/>
+
+               </RelativeLayout>
+               <RelativeLayout
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="2">
+                   <EditText
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_margin="10dp"
+                       android:textAppearance="?android:textAppearanceMedium"
+                       android:id="@+id/noteEdit"
+
+                       android:textColorHint="@android:color/white"
+                       android:hint="Type a note"
+                       />
+
+               </RelativeLayout>
+           </LinearLayout>
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"
+               android:text="SAVE"
+               android:id="@+id/saveBtn"
+               android:textColor="@android:color/white"
+               android:textAppearance="?android:textAppearanceMedium"
+               android:background="@drawable/btn_save_color"
+               />
+
+       </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>
